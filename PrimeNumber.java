@@ -8,7 +8,7 @@ public class PrimeNumber {
         System.out.println("Enter number: ");
         number = sc.nextInt();
 
-        System.out.println("Prime numbers from 1 antod " + number);
+        System.out.println("Prime numbers from 1 to " + number);
 
         for (int i = 1; i <= number; i++) {
             if (i == 1 || i == 0) {
